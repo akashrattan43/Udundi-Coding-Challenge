@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+            Need a visual blank slate?
+            Remove all code in `styles.css`!
+        -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="col"></div>
+      <h1 class="explore">EXPLORE</h1>
+      <button style="cursor:pointer;" class="primary" onclick="window.dialog.showModal();">
+        <div class="plus fa fa-plus"></div></button
+      ><
+      <h5 class="more">More Details</h5>
+      <div class="fa fa-facebook fb"></div>
+      <a class="fa fa-instagram insta"></a>
+    </main>
+  </body>
+  <dialog id="dialog">
+    <h2 style="color: #611818;margin-top: 0px;margin-bottom: 0px;">Explore</h2>
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+      minima veniam, quis nostrum exercitationem ullam corporis suscipit
+      laboriosam, nisi ut aliquid ex ea commodi consequatur?
+    </p>
+    <button class="read">Read More</button>
+    <button onclick="window.dialog.close();" aria-label="close" class="x">
+      ❌
+    </button>
+  </dialog>
+</html>

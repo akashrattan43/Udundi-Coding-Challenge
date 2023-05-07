@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/back.png");
+  background-size: 1400px;
+}
+
+.explore {
+  position: absolute;
+  width: 909px;
+  height: 289px;
+  left: 187px;
+  top: 101px;
+
+  font-family: "Didot";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 170px;
+  line-height: 289px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.col {
+  position: absolute;
+  width: 413px;
+  height: 730px;
+  left: 0px;
+  top: 0px;
+
+  background: #611818;
+}
+
+.plus {
+  position: absolute;
+  width: 35px;
+  /* height: 32px; */
+  left: 215px;
+  top: 448px;
+  background: #ffffff;
+}
+
+.fb {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 1302px;
+  top: 545px;
+  background: #ffffff;
+}
+.insta {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 1302px;
+  top: 615px;
+  background: #ffffff;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: white;
+}
+
+.fa {
+  padding: 14px;
+  font-size: 28px;
+  width: 56px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60px;
+}
+
+.more {
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  left: 271px;
+  top: 421px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.625px;
+
+  color: #ffffff;
+}
+
+dialog {
+  padding: 1rem 1.5rem;
+  background: white;
+  max-width: 500px;
+  height: 420px;
+  padding-top: 2rem;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+  animation: fadeIn 1s ease both;
+  right: 600px;
+}
+.x {
+  filter: grayscale(1);
+  border: none;
+  background: none;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  transition: ease filter, transform 0.3s;
+  cursor: pointer;
+  transform-origin: center;
+}
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.read {
+
+  position: absolute;
+  width: 190px;
+  height: 55px;
+
+  background: linear-gradient(90deg, #611818 0%, #a36754 100%);
+  border: 1px solid #979797;
+}
